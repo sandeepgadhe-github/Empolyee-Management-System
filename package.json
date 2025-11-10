@@ -1,0 +1,37 @@
+{
+  "name": "employee-management-system",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This Project is made by using Node.js, MongoDB, and React.js tech stack.",
+  "main": "dist/app.js",
+ "scripts": {
+  "dev": "nodemon --watch src --exec ts-node-esm src/app.ts",
+  "build": "tsc",
+  "start": "node dist/app.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeepgadhe-github/Employee-Management-System.git"
+  },
+  "keywords": [],
+  "author": "Sandeep Khanderao Gadhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeepgadhe-github/Employee-Management-System/issues"
+  },
+  "homepage": "https://github.com/sandeepgadhe-github/Employee-Management-System#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/node": "^20.12.12",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
