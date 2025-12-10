@@ -4,11 +4,11 @@
   "type": "module",
   "description": "This Project is made by using Node.js, MongoDB, and React.js tech stack.",
   "main": "dist/app.js",
- "scripts": {
-  "dev": "nodemon --watch src --exec ts-node-esm src/app.ts",
-  "build": "tsc",
-  "start": "node dist/app.js"
-},
+  "scripts": {
+    "dev": "nodemon --watch src --exec ts-node-esm src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sandeepgadhe-github/Employee-Management-System.git"
@@ -24,6 +24,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^5.1.0",
+    "http-status-codes": "^2.3.0",
     "mongoose": "^8.19.3"
   },
   "devDependencies": {
