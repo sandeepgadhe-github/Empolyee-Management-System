@@ -3,7 +3,8 @@ export enum EmployeeStatus{
     BLOCKED = 'BLOCKED',
     INACTIVE = 'INACTIVE',
     DELETED = 'DELETED',
-    LOCKED = 'LOCKED'
+    LOCKED = 'LOCKED',
+    CREATED = 'CREATED',
 }
 export enum ProjectStatus {
     NOT_STARTED = 'Not Started',

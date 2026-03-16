@@ -1,4 +1,4 @@
-import { EmployeeStatus } from "../common/common.enum";
+import { EmployeeStatus } from "../common/common.enum.js";
 import mongoose, {Schema, now} from "mongoose"
 
 export interface employeeProfile {
